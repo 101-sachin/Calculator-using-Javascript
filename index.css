@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(one.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cal{
+    border: 2px solid #000000;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0,0.8);
+    background: rgba(0, 0, 0,0.5);
+}
+
+input{
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.8);
+    border-radius: 15px;
+    font-size: 60px;
+    text-align: right;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0,0.2);
+}
+
+button{
+    height: 60px;
+    width: 60px;
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    cursor: pointer;
+    background: rgba(0, 0, 0,0.8);
+    font-size: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-shadow: 0px 1px 5px rgba(0, 0, 0,0.2);
+    box-shadow: -1px 2px 10px rgba(0,0,0,0.);
+}
+button:hover{
+    color: #000000;
+    background: #f50303;
+}
+button:active{
+    color:#ffffff;
+    background: rgb(255, 174, 0) ;
+}
+.operator, .btnequal{
+    font-size: 24px;
+    color: rgb(255, 174, 0);
+}
+.btnequal{
+    color: #ffffff;
+    background: rgb(255, 174, 0);
+}
